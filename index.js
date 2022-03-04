@@ -74,9 +74,9 @@ let studying = "Strive classes were fun today";
 
 const strivify = function (a) {
   if (a.indexOf("Strive") > -1) {
-    return a;
+    return "a";
   } else {
-    return "Strive", +a;
+    return "Strive", +"a";
   }
 };
 console.log(strivify(bird));
