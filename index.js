@@ -19,13 +19,19 @@ const calculateArea = function (a, b) {
   return a * b;
 };
 console.log(calculateArea(l1, l2));
+
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const crazySum = function () {
+  if (a === b) {
+    console.log(a * b);
+  } else {
+    console.log(a + b);
+  }
+};
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
