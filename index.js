@@ -90,7 +90,7 @@ console.log(check3and7(5));
 */
 let howToDoIt = "How do you reverse a string in-place in JavaScript?";
 for (var i = howToDoIt.length - 1; i >= 0; i--) {
-  console.log(arr[i]);
+  console.log(howToDoIt[i]);
 }
 
 /* EXERCISE 8
