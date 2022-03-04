@@ -119,9 +119,7 @@ console.log(cutString(anotherTextItem));
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-const giveMeRandom = function (a) {
-  return Math.floor(Math.random() * 10) * a;
-};
+const giveMeRandom = function (i) {};
 console.log(giveMeRandom(3));
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
