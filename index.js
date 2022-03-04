@@ -89,13 +89,10 @@ console.log(check3and7(5));
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 let howToDoIt = "How do you reverse a string in-place in JavaScript?";
-const reverseString = function (a) {
-  return a
-    .slice()
-    .reverse()
-    .forEach((x) => console.log(x));
-};
-console.log(reverseString(howToDoIt));
+for (var i = howToDoIt.length - 1; i >= 0; i--) {
+  console.log(arr[i]);
+}
+
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
