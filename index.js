@@ -69,23 +69,21 @@ console.log(boundary(44));
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
-let bird = "Today i saw a bird through my window";
-let studying = "Strive classes were fun today";
+console.log("even google couldnt help me");
 
-const strivify = function (a) {
-  if (a.indexOf("Strive") > -1) {
-    return "a";
-  } else {
-    return "Strive", +"a";
-  }
-};
-console.log(strivify(bird));
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
+const check3and7 = function (a) {
+  if (a % 3 === 0 || a % 7 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+console.log(check3and7(3));
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
