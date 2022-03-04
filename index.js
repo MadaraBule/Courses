@@ -48,13 +48,13 @@ console.log(difference(numberUno, 19));
 function crazyDiff(a) {
   let result;
   if (a > 19) {
-    result = difference * 3;
+    result = a * 3;
   } else {
-    result = difference;
+    result = a;
   }
   return result;
 }
-console.log(crazyDiff(numberUno));
+console.log(crazyDiff(difference(numberUno)));
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
