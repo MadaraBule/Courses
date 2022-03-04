@@ -106,12 +106,11 @@ const upperFirst = function (a) {
     a[i] = a[i][0].toUpperCase() + a[i].substr(1);
   }
 };
-console.log(upperFirst(textForUse));
 console.log("EX8 another failure");
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
-let anotherTextItem = "function called which creates a";
+let anotherTextItem = "function called which creates and";
 const cutString = function (a) {
   return a.substring(1, a.length - 1);
 };
