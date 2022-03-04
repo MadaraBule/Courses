@@ -27,11 +27,13 @@ console.log(calculateArea(l1, l2));
 
 const crazySum = function () {
   if (a === b) {
-    console.log(a * b);
+    return a * b;
   } else {
-    console.log(a + b);
+    return a + b;
   }
 };
+
+console.log(crazySum(l1, l2));
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
