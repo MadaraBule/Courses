@@ -83,7 +83,7 @@ const check3and7 = function (a) {
     return false;
   }
 };
-console.log(check3and7(3));
+console.log(check3and7(5));
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
