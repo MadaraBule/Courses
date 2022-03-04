@@ -25,14 +25,15 @@ console.log(calculateArea(l1, l2));
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-const crazySum = function () {
+function crazySum(a, b) {
+  let result;
   if (a === b) {
-    return a * b;
+    result = a * b;
   } else {
-    return a + b;
+    result = a + b;
   }
-};
-
+  return result;
+}
 console.log(crazySum(l1, l2));
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
