@@ -69,7 +69,8 @@ console.log(boundary(44));
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
-console.log("hahahaa nope");
+
+console.log("no");
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
@@ -94,19 +95,22 @@ const reverseString = function (a) {
   for (var i = a.length - 1; i >= 0; i--) {
     console.log(a[i]);
   }
+  return a;
 };
-
+console.log(reverseString(howToDoIt));
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 let textForUse = "Write a function of each word of a given string parameter.";
 const upperFirst = function (a) {
-  let = a.split(" ");
-  for (let i = 0; i < a.length; i++) {
-    a[i] = a[i][0].toUpperCase() + a[i].substr(1);
+  let painpeko = [];
+  painpeko = a.split(" ");
+  for (let i = 0; i < painpeko.length; i++) {
+    painpeko[i] = painpeko[i][0].toUpperCase() + painpeko[i].substr(1);
   }
+  return painpeko.join(" ");
 };
-console.log("EX8 another failure");
+console.log(upperFirst(textForUse));
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
