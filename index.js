@@ -99,7 +99,11 @@ const reverseString = function (a) {
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
-
+let textForUse = "Write a function of each word of a given string parameter.";
+const upperFirst = function (a) {
+  return a.charAt(0).toUpperCase();
+};
+console.log(upperFirst(textForUse));
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
