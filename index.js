@@ -90,7 +90,10 @@ console.log(check3and7(5));
 */
 let howToDoIt = "How do you reverse a string in-place in JavaScript?";
 const reverseString = function (a) {
-  return a.reduceRight((_, item) => console.log(item), null);
+  return a
+    .slice()
+    .reverse()
+    .forEach((x) => console.log(x));
 };
 console.log(reverseString(howToDoIt));
 /* EXERCISE 8
