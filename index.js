@@ -100,15 +100,11 @@ const reverseString = function (a) {
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 let textForUse = "Write a function of each word of a given string parameter.";
-const sliptTheThing = function (a) {
-  return a.split(" ");
-};
-const combine = function (a) {
-  return a.join(" ");
-};
-
 const upperFirst = function (a) {
-  return sliptTheThing(a), combine(a);
+  let = a.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+  }
 };
 console.log(upperFirst(textForUse));
 /* EXERCISE 9
