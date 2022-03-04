@@ -102,8 +102,8 @@ const reverseString = function (a) {
 let textForUse = "Write a function of each word of a given string parameter.";
 const upperFirst = function (a) {
   let = a.split(" ");
-  for (let i = 0; i < words.length; i++) {
-    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+  for (let i = 0; i < a.length; i++) {
+    a[i] = a[i][0].toUpperCase() + a[i].substr(1);
   }
 };
 console.log(upperFirst(textForUse));
