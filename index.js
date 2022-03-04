@@ -12,8 +12,8 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-let = l1;
-let l2;
+let l1 = 5;
+let l2 = 6;
 
 const calculateArea = function (a, b) {
   return a * b;
