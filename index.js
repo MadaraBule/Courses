@@ -104,6 +104,16 @@ const reverseString = function (a) {
   return a;
 };
 console.log(reverseString(howToDoIt));
+
+// const reverseString = function (str) {
+//   return str.split("").reverse("").join("");
+
+//   //let splitString = str.split("")
+//   //let reverseString = splitString.reverse()
+//   //let finalString = reverseString.join("")
+// };
+// console.log(reverseString("Strive"));
+
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
@@ -131,9 +141,10 @@ console.log(cutString(anotherTextItem));
 
 const giveMeRandom = function (a) {
   let randomNumbers = [];
-  for (let i = 0; i <= a; i++) {
+  for (let i = 0; i < a; i++) {
     randomNumbers.push(Math.floor(Math.random() * 10) + 10);
   }
+  return randomNumbers;
 };
 console.log(giveMeRandom(3));
 /* WHEN YOU ARE FINISHED
