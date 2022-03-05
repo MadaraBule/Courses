@@ -28,7 +28,7 @@ console.log(calculateArea(l1, l2));
 function crazySum(a, b) {
   let result;
   if (a === b) {
-    result = a * b;
+    result = (a + b) * 3;
   } else {
     result = a + b;
   }
@@ -70,7 +70,13 @@ console.log(boundary(44));
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
-console.log("no");
+const strivify = function (str) {
+  if (str.startsWith("Strive") /* true / false */) {
+    return str;
+  } else {
+    return "Strive " + str;
+  }
+};
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
@@ -123,7 +129,12 @@ console.log(cutString(anotherTextItem));
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-const giveMeRandom = function (i) {};
+const giveMeRandom = function (a) {
+  let randomNumbers = [];
+  for (let i = 0; i <= a; i++) {
+    randomNumbers.push(Math.floor(Math.random() * 10) + 10);
+  }
+};
 console.log(giveMeRandom(3));
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
