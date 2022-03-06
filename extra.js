@@ -4,12 +4,29 @@
  Write a function called "checkArray" which receives an array of random numbers (created with giveMeRandom) and prints, for each item, whether it's bigger than 5 or not.
  The function should return the sum of just the numbers bigger than 5.
 */
-let giveMeRandom = Math.floor(Math.random() * 10);
-const checkArray = function (thing) {
-    for (int i=0; i < thing.length ; i++) {
-       return sum = sum + numbers[i];
-}
-}
+const giveMeRandom = function (a) {
+  const arr = [];
+  for (let i = 0; i <= a; i++) {
+    arr.push(Math.floor(Math.random() * 10));
+  }
+  return arr;
+};
+
+const checkArray = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 5) {
+      console.log(arr[i] + " is bigger than 5");
+      sum = sum + arr[i];
+      //   sum += arr[i];
+    } else {
+      console.log(arr[i] + " is not bigger than 5");
+    }
+  }
+  console.log("The sum of the numbers greater than 5 is " + sum);
+};
+
+checkArray(giveMeRandom(5));
 /* EXTRA 2
  In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, an id and the quantity to be shipped.
  Create a function called "shoppingCartTotal" which calculates the total due to the shop.
